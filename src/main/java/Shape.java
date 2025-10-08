@@ -1,6 +1,3 @@
-package Week4.BT;
-
-
 /**
  * Lớp trừu tượng.
  */

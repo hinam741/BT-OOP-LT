@@ -1,5 +1,3 @@
-package Week4.BT;
-
 import java.util.*;
 
 public class MainProgram {
