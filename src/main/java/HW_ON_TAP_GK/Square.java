@@ -1,4 +1,4 @@
-import java.util.Objects;
+package HW_ON_TAP_GK;
 
 /**
  * Lớp con square hình vuông kế thừa rectangle.
@@ -49,7 +49,7 @@ public class Square extends Rectangle {
      */
     @Override
     public String toString() {
-        return String.format("Square[center=%s,side=%.1f,color=%s,filled=%s]",
+        return String.format("HW_ON_TAP_GK.Square[center=%s,side=%.1f,color=%s,filled=%s]",
                 this.getCenterPoint().toString(),
                 this.width,
                 this.color != null && !this.color.isEmpty() ? this.color : "null",

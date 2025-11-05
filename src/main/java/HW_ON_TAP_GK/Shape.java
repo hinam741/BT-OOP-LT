@@ -1,3 +1,5 @@
+package HW_ON_TAP_GK;
+
 /**
  * Lớp trừu tượng.
  */
@@ -72,7 +74,7 @@ public abstract class Shape {
      */
     @Override
     public String toString() {
-        return String.format("Shape[color=%s,filled=%s]",
+        return String.format("HW_ON_TAP_GK.Shape[color=%s,filled=%s]",
                 this.color != null && !this.color.isEmpty() ? this.color : "null",
                 this.filled);
     }

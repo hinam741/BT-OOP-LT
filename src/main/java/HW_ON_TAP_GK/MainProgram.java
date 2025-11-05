@@ -1,3 +1,5 @@
+package HW_ON_TAP_GK;
+
 import java.util.*;
 
 public class MainProgram {
@@ -12,7 +14,7 @@ public class MainProgram {
         System.out.println("Number of shapes: " + shapes.size());
 
         // 2. Chi tiết
-        System.out.println("Shape details:");
+        System.out.println("HW_ON_TAP_GK.Shape details:");
         for (Shape shape : shapes) {
             System.out.println(shape);
         }

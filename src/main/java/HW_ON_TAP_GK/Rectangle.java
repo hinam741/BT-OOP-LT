@@ -1,4 +1,4 @@
-import java.util.Objects;
+package HW_ON_TAP_GK;
 
 /**
  * Lớp con rectangle kế thừa shape.
@@ -85,7 +85,7 @@ public class Rectangle extends Shape {
      */
     @Override
     public String toString() {
-        return String.format("Rectangle[center=%s,width=%.1f,length=%.1f,color=%s,filled=%s]",
+        return String.format("HW_ON_TAP_GK.Rectangle[center=%s,width=%.1f,length=%.1f,color=%s,filled=%s]",
                 this.centerPoint.toString(),
                 this.width,
                 this.length,

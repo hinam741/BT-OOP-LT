@@ -1,7 +1,7 @@
-import java.util.Objects;
+package HW_ON_TAP_GK;
 
 /**
- * Lớp Point mới.
+ * Lớp HW_ON_TAP_GK.Point mới.
  */
 public class Point {
     /**

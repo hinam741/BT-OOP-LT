@@ -1,4 +1,4 @@
-import java.util.Objects;
+package HW_ON_TAP_GK;
 
 /**
  * Lớp con circle kế thừa shape.
@@ -95,7 +95,7 @@ public class Circle extends Shape {
      */
     @Override
     public String toString() {
-        return String.format("Circle[center=%s,radius=%.1f,color=%s,filled=%s]",
+        return String.format("HW_ON_TAP_GK.Circle[center=%s,radius=%.1f,color=%s,filled=%s]",
                 this.centerPoint.toString(),
                 this.radius,
                 this.color != null && !this.color.isEmpty() ? this.color : "null",
